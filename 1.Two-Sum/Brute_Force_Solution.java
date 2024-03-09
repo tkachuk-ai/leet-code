@@ -1,3 +1,9 @@
+/** 
+Analysis:
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+  */
+
 class Brute_Force_Solution {
   public int[] twoSum(int[] nums, int target) {
     for (int i = 0; i != nums.length; ++i) {
@@ -11,6 +17,4 @@ class Brute_Force_Solution {
   }
 }
 
-// Analysis:
-// Time Complexity: O(n^2)
-// Space Complexity: O(1)
+
